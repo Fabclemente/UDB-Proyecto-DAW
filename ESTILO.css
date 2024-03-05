@@ -7,3 +7,12 @@ text-align: justify;
 left: 50%;
 }
 
+.emailCntnr{
+    display:block;
+    margin-top: 10px;
+}
+
+.psswrdCntnr{
+    display:block;
+    margin-top: 10px;
+}
