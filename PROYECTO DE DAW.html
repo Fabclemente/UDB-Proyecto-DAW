@@ -10,7 +10,7 @@
     <link rel="icon" href="../../favicon.ico">
     <link rel="canonical" href="https://getbootstrap.com/docs/3.4/examples/signin/">
     <link rel="stylesheet" href="ESTILO.css">
-    <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVa19c2tiq-V4x2PAFqdIWx7FAW71EsH2AKQ&usqp=CAU" alt=""></center>
+    
 
     <title>POKEMON BANK</title>
 
@@ -40,13 +40,14 @@
 
       <form class="form-signin">
         <div class="crdntlCntnr">
-          <h2 class="form-signin-heading">Ingrese sus datos</h2>
+          <img id="img-log" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVa19c2tiq-V4x2PAFqdIWx7FAW71EsH2AKQ&usqp=CAU" alt="">
+          <h2 id="ttl" class="form-signin-heading">Ingrese sus datos</h2>
           <div class="emailCntnr">  
-            <label for="inputEmail" class="sr-only">Correo Electronico</label>
+            <label class="fnt-family" for="inputEmail" class="sr-only">Correo Electronico</label>
             <input type="email" id="inputEmail" class="form-control" placeholder="Correo" required autofocus>
           </div>
           <div class="psswrdCntnr">
-            <label for="inputPassword" class="sr-only">Contraseña</label>
+            <label class="fnt-family" for="inputPassword" class="sr-only">Contraseña</label>
             <input type="password" id="inputPassword" class="form-control" placeholder="*******" required>
           </div>  
           <div class="checkbox">
@@ -54,7 +55,7 @@
               <input type="checkbox" value="remember-me"> POKEMON BANK
             </label>
           </div>
-          <button class="btn btn-lg btn-primary btn-block" type="submit">INICIAR</button>
+          <button class="my-button" id="btn-log" class="btn btn-lg btn-primary btn-block" type="submit">INICIAR</button>
         </div>
       </form>
 
