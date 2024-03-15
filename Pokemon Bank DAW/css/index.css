@@ -82,6 +82,7 @@ body {
     text-align: center;
     margin: 20px auto;
     position: relative;
+
 }
 
 .imagenservicios {
@@ -118,6 +119,31 @@ button img {
     max-width: 165px;
     margin: 15px;
     padding: 10px;
+}
+
+.enlace1{
+    color: #fff;
+}
+
+.enlace2{
+    color: #fff;
+}
+
+
+.enlace3{
+    color: #fff;
+}
+
+.enlace4{
+    color: #fff;
+}
+
+.enlace5{
+    color: #fff;
+}
+
+.enlace6{
+    color: #fff;
 }
 
 h1 {

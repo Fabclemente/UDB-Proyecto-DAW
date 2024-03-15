@@ -10,7 +10,7 @@ left: 50%;
 .crdntlCntnr{
     margin-top: 5%;
     border-radius: 5%;
-    background-color: white;
+    background-color: black;
     width: 300px;
 }
 
@@ -57,10 +57,9 @@ left: 50%;
   }
   
   .my-button:hover {
-    background-color: #45a049;
+    background-color: black;
   }
   
   .my-button:active {
     background-color: #3e8e41;
   }
-  
