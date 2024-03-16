@@ -75,7 +75,7 @@ body {
     background-color: #3f933f;
     border-color: black;
     box-sizing: border-box;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -91,22 +91,36 @@ body {
     max-width: 550px;
 }
 
-button {
+.service-cntnr {
+    display: flex;
     background-color: #007bff;
     color: white;
     border: none;
     padding: 10px;
     margin: 10px;
+    width: 100%;
+    max-width: 560px;
     cursor: pointer;
     border-radius: 10px;
     transition: background-color 0.5s ease;
 }
 
-button:hover {
+.scnd-box{
+    display: block;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.separador{
+    display: block;
+}
+
+.service-cntnr:hover {
     background-color: #0056b3;
 }
 
-button img {
+.service-cntnr img {
     width: 100%;
     max-width: 140px;
     height: auto;
@@ -114,9 +128,7 @@ button img {
     border-radius: 10px;
 }
 
-.container3 button {
-    flex-basis: calc(33% - 25px);
-    max-width: 165px;
+.service-cntnr {
     margin: 15px;
     padding: 10px;
 }
@@ -186,10 +198,6 @@ footer {
 @media (max-width: 768px) {
     .navbar ul li {
         margin-right: 10px;
-    }
-
-    .container3 button {
-        flex-basis: calc(50% - 20px);
     }
 }
 
