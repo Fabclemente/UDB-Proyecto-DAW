@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <link rel="canonical" href="https://getbootstrap.com/docs/3.4/examples/signin/">
+    <link rel="stylesheet" href="css/crearcuenta.css">
+    
+
+    <title>Crear Cuenta</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="signin.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <center><div class="container">
+
+      <form class="crearcuenta">
+        <div class="contenedor1">
+          <img id="img-log" src="img/pokemon-bank.png" alt="">
+
+          <h1 id="ttl" class="registro">Ingrese sus datos</h1>
+
+          <div class="form-column">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="contrasena">Contraseña nueva:</label>
+            <input type="password" id="contrasena" name="contrasena" required>
+
+            <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+
+            <label for="sexo">Sexo:</label>
+            <select id="sexo" name="sexo" required>
+              <option value="" disabled selected>Selecciona tu sexo</option>
+              <option value="Mujer">Mujer</option>
+              <option value="Hombre">Hombre</option>
+            </select>
+
+          </div>
+
+          <button class="my-button" id="btn-log" class="btn btn-lg btn-primary btn-block" type="submit">REGISTRARTE</button>
+
+          <div class="Creacontra">
+            <a href="login.html">Ya tienes una cuenta</a>
+          </div>
+
+        </div>
+
+      </form>
+
+    </div> <!-- /container -->
+  </center>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
