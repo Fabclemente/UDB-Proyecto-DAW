@@ -80,7 +80,6 @@ body {
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
-    margin: 20px auto;
     position: relative;
 
 }
@@ -91,13 +90,18 @@ body {
     max-width: 550px;
 }
 
+.container4{
+    text-align: center;
+}
+
 .service-cntnr {
     display: flex;
     background-color: #007bff;
     color: white;
     border: none;
     padding: 10px;
-    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
     max-width: 560px;
     cursor: pointer;
@@ -129,7 +133,7 @@ body {
 }
 
 .service-cntnr {
-    margin: 15px;
+    margin-bottom: 15px;
     padding: 10px;
 }
 
