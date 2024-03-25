@@ -5,6 +5,7 @@ body {
     color: white;
     margin: 0;
     padding: 0;
+    margin-bottom: 2%;
 }
 
 .container {
@@ -71,11 +72,12 @@ body {
 footer {
     background-color: black;
     color: white;
-    padding: 15px;
+    padding: 5px;
     width: 100%;
-    position: fixed;
+    position: relative;
     bottom: 0;
     text-align: center;
+    margin-top: 2%;
 }
 
 .social {
@@ -103,5 +105,75 @@ footer {
     margin-top: 20px;
 }
 
+.footer-content{
+    margin-top: 2%;
+}
 
+/*payment table */
+
+.payment-register-box {
+    background-color: #fff;
+    width: auto;
+    border: 1px solid #0e0101;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left:1cm;
+    margin-right: 1cm;
+    margin-bottom: 2%;
+  }
   
+  .payment-register-box table {
+    width: 100%;
+    border-collapse:collapse;
+  }
+  
+  .payment-register-box th,
+  .payment-register-box td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #0d0e0d;
+  }
+  
+  .payment-register-box th {
+    background-color: #3f933f;
+    font-weight: bold;
+  }
+  
+  .payment-register-box td:last-child {
+    text-align: right;
+  }
+  
+  .payment-register-box td:nth-child(2) {
+    color: #4a86e8;
+  }
+  
+  .payment-register-box td:nth-child(3) {
+    color: #0d0e0d;
+  }
+  
+  .payment-register-box td:nth-child(1) {
+    color: #f44336;
+  }
+
+/* Estilos para el contenedor del gráfico */
+
+canvas{
+    max-width: 100%;
+}
+
+.graphics{
+    background-color: aliceblue;
+    text-align: center;
+    align-content:center;
+    width: auto;
+    border: 1px solid #0e0101;
+    border-radius: 5px;
+    overflow:visible;
+    margin-left:1cm;
+    margin-right: 1cm;
+    margin-bottom: 2%;
+}
+
+h5{
+    color: #0d0e0d;
+}
