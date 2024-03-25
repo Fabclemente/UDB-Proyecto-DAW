@@ -126,3 +126,31 @@ document.addEventListener('DOMContentLoaded', function () {
       }
   });
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+  const form = document.querySelector('.crearcuenta');
+  const fechaNacimientoInput = document.getElementById('fecha_nacimiento');
+
+  form.addEventListener('submit', function (event) {
+      event.preventDefault();
+            
+      const fechaNacimiento = new Date(fechaNacimientoInput.value);
+      
+      const fechaActual = new Date();
+      
+      const edad = fechaActual.getFullYear() - fechaNacimiento.getFullYear();
+
+      
+      if (edad < 18) {
+          
+          swal("Error", "No se puede registrar por ser menor de edad.", "error");
+      } else {
+          
+          swal({
+              title: "¡Registrado!",
+              text: "Tu cuenta ha sido creada exitosamente.",
+              icon: "success",
+          });
+      }
+  });
+});
