@@ -78,9 +78,10 @@ footer {
     color: white;
     padding: 15px;
     width: 100%;
-    position: fixed;
+    position: relative;
     bottom: 0;
     text-align: center;
+    margin-top: 2%;
 }
 
 .social {
@@ -108,5 +109,20 @@ footer {
     margin-top: 20px;
 }
 
+.graphics{
+    background-color: aliceblue;
+    text-align: center;
+    align-content:center;
+    width: auto;
+    border: 1px solid #0e0101;
+    border-radius: 5px;
+    overflow:visible;
+    margin-left:1cm;
+    margin-right: 1cm;
+    margin-bottom: 2%;
+}
 
+h5{
+    color: #0d0e0d;
+}
   
