@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../../favicon.ico">
+    <link rel="canonical" href="https://getbootstrap.com/docs/3.4/examples/signin/">
+    <link rel="stylesheet" href="css/crearcuenta.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+    <title>Crear Cuenta</title>
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="signin.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <center>
+        <div class="container">
+            <form class="crearcuenta" id="registroForm">
+                <div class="contenedor1">
+                    <img id="img-log" src="img/pokemon-bank.png" alt="">
+                    <h1 id="ttl" class="registro">Ingrese sus datos</h1>
+
+                    <div class="form-column">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre">
+
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" id="apellido" name="apellido">
+
+                        <label for="correo">Correo electrónico:</label>
+                        <input type="email" id="correo" name="correo">
+
+                        <label for="contrasena">Contraseña nueva:</label>
+                        <input type="password" id="contrasena" name="contrasena" maxlength="4">
+
+                        <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+                        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento">
+
+                        <label for="sexo">Sexo:</label>
+                        <select id="sexo" name="sexo">
+                            <option value="" disabled selected>Selecciona tu sexo</option>
+                            <option value="Mujer">Mujer</option>
+                            <option value="Hombre">Hombre</option>
+                        </select>
+                    </div>
+                    <button class="my-button" id="btn-registrar" class="btn btn-lg btn-primary btn-block" type="button">REGISTRARTE</button>
+
+                    <div class="Creacontra">
+                        <a href="login.html">Ya tienes una cuenta</a>
+                    </div>
+                </div>
+            </form>
+        </div> <!-- /container -->
+    </center>
+    <script src="js/chart-config.js"></script> <!-- Agregando el script de chart-config.js -->
+    <script src="js/validaciones.js"></script>
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>

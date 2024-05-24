@@ -1,0 +1,179 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #b8e590;
+    color: white;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2%;
+}
+
+.container {
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: black;
+    padding: 7px;
+    border-radius: 0 0 10px 10px;
+    justify-content: center;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+/* Encabezado */
+.header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+.contenedor {
+    max-width: 700px;
+    width: 100%;
+    height: auto;
+    border: solid;
+    border-radius: 10px;
+    background-color: #3f933f;
+    border-color: black;
+    box-sizing: border-box;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 20px auto;
+    position: relative;
+
+}
+
+/* Pie de página */
+footer {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.social {
+    text-align: center;
+}
+
+.social h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.social ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.copyright {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.footer-content{
+    margin-top: 2%;
+}
+
+/*payment table */
+
+.payment-register-box {
+    background-color: #fff;
+    width: auto;
+    border: 1px solid #0e0101;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left:1cm;
+    margin-right: 1cm;
+    margin-bottom: 2%;
+  }
+  
+  .payment-register-box table {
+    width: 100%;
+    border-collapse:collapse;
+  }
+  
+  .payment-register-box th,
+  .payment-register-box td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #0d0e0d;
+  }
+  
+  .payment-register-box th {
+    background-color: #3f933f;
+    font-weight: bold;
+  }
+  
+  .payment-register-box td:last-child {
+    text-align: right;
+  }
+  
+  .payment-register-box td:nth-child(2) {
+    color: #4a86e8;
+  }
+  
+  .payment-register-box td:nth-child(3) {
+    color: #0d0e0d;
+  }
+  
+  .payment-register-box td:nth-child(1) {
+    color: #f44336;
+  }
+
+/* Estilos para el contenedor del gráfico */
+
+canvas{
+    max-width: 100%;
+}
+
+.graphics{
+    background-color: aliceblue;
+    text-align: center;
+    align-content:center;
+    width: auto;
+    border: 1px solid #0e0101;
+    border-radius: 5px;
+    overflow:visible;
+    margin-left:1cm;
+    margin-right: 1cm;
+    margin-bottom: 2%;
+}
+
+h5{
+    color: #0d0e0d;
+}

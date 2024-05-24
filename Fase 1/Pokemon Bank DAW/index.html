@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/img/pokemon-bank-logo.png" />
+    <link rel="stylesheet" href="css/index.css">
+
+    <title>POKEMON BANK</title>
+</head>    
+
+<body>
+
+    <div class="container">
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="login.html">Inicio</a></li>
+                <li><a href="transacciones.html">Historial de Transacciones</a></li>
+                <li><a href="graficos.html">Gráfica de Transacciones</a></li>
+                <li><a href="http://www.google.com" target="_blank">Descarga nuestra APP</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <header class="header">
+                <div class="contenedor">
+                    <img src="img/pokemon-bank.png" alt="">
+                    <h1><b>Bienvenido, "Nombre de Usuario"</b></h1>
+                    <h1><b>Número de cuenta: "Número de Cuenta"</b></h1>
+                </div>    
+            </header>
+
+            <section class="servicios">
+                <div class="container3">
+                    <img class="imagenservicios" src="img/spb.PNG">
+                    <div class="container4">
+                        <div class="service-cntnr">
+                            <div class="frst-box">
+                            <img src="img/depositar.jpg" alt="">
+                            <h1><b>Depositar</b></h1>
+                            </div>
+                            <div class="scnd-box">
+                                <label for="bank-account">Seleccione la cuenta:</label>
+                                <select name="bank-account" id="bank-account">
+                                    <option value="---">---</option>
+                                    <option value="---">---</option>
+                                    <option value="---">---</option>
+                                    <option value="---">---</option>
+                                </select>
+                                <div class="separador">
+                                    <label for="monto">Ingrese el monto:</label>
+                                    <input type="text" name="monto" id="monto">
+                                    <button class="separador">Depositar</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="service-cntnr">
+                            <div class="frst-box">
+                            <img src="img/retirar.jpeg" alt="">
+                            <h1><b>Retirar</b></h1>
+                            </div>
+                            <div class="scnd-box">
+                                <label for="bank-account">Seleccione la cuenta:</label>
+                                <select name="bank-account" id="bank-account">
+                                    <option value="---">---</option>
+                                    <option value="---">---</option>
+                                    <option value="---">---</option>
+                                    <option value="---">---</option>
+                                </select>
+                                <div class="separador">
+                                    <label for="monto">Ingrese el monto:</label>
+                                    <input type="text" name="monto" id="monto">
+                                    <button class="separador">Retirar</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="service-cntnr">
+                            <div class="frst-box">
+                            <img src="img/consultarsaldo.jpg" alt="">
+                            <h1><b>Consultar Saldo</b></h1>
+                            </div>
+                            <div class="scnd-box">
+                                <label for="bank-account">Seleccione la cuenta:</label>
+                                <select name="bank-account" id="bank-account">
+                                    <option value="---">---</option>
+                                    <option value="---">---</option>
+                                    <option value="---">---</option>
+                                    <option value="---">---</option>
+                                </select>
+                                <div class="separador">
+                                <button>Consultar</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="service-cntnr">
+                            <div class="frst-box">
+                            <img src="img/pagarservicios.jpg" alt="">
+                            <h1><b>PAGO DE SERVICIOS</b></h1>
+                            </div>
+                            <div class="scnd-box">
+                                <div class="separador">
+                                    <label for="service">Seleccione el servicio:</label>
+                                    <select name="service" id="service">
+                                        <option value="internet">Internet</option>
+                                        <option value="electrico">Electricidad</option>
+                                        <option value="agua">Agua</option>
+                                        <option value="telefono">Telefonía</option>
+                                    </select>
+                                </div>
+                                <div class="separador">
+                                    <label for="bank-account">Seleccione la cuenta:</label>
+                                    <select name="bank-account" id="bank-account">
+                                        <option value="---">---</option>
+                                        <option value="---">---</option>
+                                        <option value="---">---</option>
+                                        <option value="---">---</option>
+                                    </select>
+                                </div>
+                                <div class="separador">
+                                    <label for="monto">Ingrese el monto:</label>
+                                    <input type="text" name="monto" id="monto">
+                                    <button class="separador">Pagar</button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="service-cntnr">
+                            <img src="img/cerrarsesion.jpg" alt="">
+                        <h1><a href="login.html" class="enlace5"><b>Cerrar Sesion</b></a></h1>
+                        </div>
+
+                        <div class="service-cntnr">
+                                <img src="img/pokebola.png" alt="">
+                                <h1> <a href="http://www.google.com" class="enlace6"><b>Descarga la APP</b></h1>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social">
+                <h3>Síguenos en las redes sociales</h3>
+                <ul>
+                    <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+                    <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+                    <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                </ul>
+                <p class="copyright">© 2024 Proyecto DAW Pokemon Bank. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
