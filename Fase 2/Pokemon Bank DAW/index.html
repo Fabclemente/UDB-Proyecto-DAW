@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="/img/pokemon-bank-logo.png" />
     <link rel="stylesheet" href="css/index.css">
-
+    <script src="js/local-storage.js"></script>
     <title>POKEMON BANK</title>
 </head>    
 
@@ -52,8 +52,8 @@
                                 </select>
                                 <div class="separador">
                                     <label for="monto">Ingrese el monto:</label>
-                                    <input type="text" name="monto" id="monto">
-                                    <button class="separador">Depositar</button>
+                                    <input type="text" name="monto" id="monto-depositar">
+                                    <button class="separador" id="btn-depositar">Depositar</button>
                                 </div>
                             </div>
                         </div>
@@ -73,8 +73,8 @@
                                 </select>
                                 <div class="separador">
                                     <label for="monto">Ingrese el monto:</label>
-                                    <input type="text" name="monto" id="monto">
-                                    <button class="separador">Retirar</button>
+                                    <input type="text" name="monto" id="monto-retirar">
+                                    <button class="separador" id="btn-retirar">Retirar</button>
                                 </div>
                             </div>
                         </div>
@@ -125,8 +125,8 @@
                                 </div>
                                 <div class="separador">
                                     <label for="monto">Ingrese el monto:</label>
-                                    <input type="text" name="monto" id="monto">
-                                    <button class="separador">Pagar</button>
+                                    <input type="text" name="monto" id="monto-pagar">
+                                    <button class="separador" id="btn-pagar">Pagar</button>
                                 </div>
                             </div>
 
